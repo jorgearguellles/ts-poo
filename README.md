@@ -16,8 +16,14 @@ An Object is confirmed by attributes and methods
 
 It Describe the behavior of the class
 
-# Access
+# Access types
+
+Access types apply in Attributes and Methods
 
 - Public access: Default access -> **public year: number = 0;**
 - Just reade inside and outside Class: **readonly year: number = 0;**
-- Private access:
+- Private access: From outside Class we can't Print nether Mutated it -> **private day: number = 0;**
+
+# Constructor
+
+The Constructor is the method that allows us to build the instances

@@ -1,7 +1,7 @@
 export class MyDate {
-  public year: number = 0;
-  public month: number = 0;
-  public day: number = 0;
+  public year: number = 0; // Public access verbose
+  month: number = 0; // Public access by default
+  private day: number = 0; // We can't Print nether Mutated it
   readonly example: number = 10; // Read Only inside and outside Class
 
   constructor(year: number, month: number, day: number){
