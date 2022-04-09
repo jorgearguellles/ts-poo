@@ -45,3 +45,9 @@ export class MyDate {
     return this.year
   }
 }
+
+const myDate = new MyDate();
+const myDate1 = new MyDate(2020);
+const myDate2 = new MyDate(2050, 3);
+const myDate3 = new MyDate(2050, 3, 10);
+console.log({myDate, myDate1, myDate2, myDate3});

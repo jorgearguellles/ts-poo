@@ -26,4 +26,23 @@ Access types apply in Attributes and Methods
 
 # Constructor
 
-The Constructor is the method that allows us to build the instances
+The Constructor is the method that allows us to build the instances and where we set the initial values
+
+# Getter
+
+- Is a controlled way to access private variables/attributes.
+- When we put **get** before a method, we will use like a prop. It's mean: we cn call it like this: **myDate.isLeapYear** without **()**
+- Inside Class, a get run the method and outsite class we read like a props.
+- Always getter have to return value.
+
+# Setter
+
+- A **setter** is the opposite of a **getter**
+- The exclusive use of a setter is to modify a value and your rules
+
+# Inherit
+
+# Protected by Inheritance
+
+- Is a way to inherit methods and props
+-
