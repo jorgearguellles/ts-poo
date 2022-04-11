@@ -47,3 +47,11 @@ The Constructor is the method that allows us to build the instances and where we
 
 - Is a way to inherit methods and props
 - Protected is a Private with inheritance. It's means Protected allow us use props or methods only on internal uses and we can inherit it.
+
+# Static props & methods
+
+- With the reserved word Static I can access properties and methods without the need to do an instance
+  - console.log(Math.PI); // 3.14...
+  - console.log(Math.max(1,2,3,4)); // 4
+
+# Interface
