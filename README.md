@@ -59,3 +59,8 @@ The Constructor is the method that allows us to build the instances and where we
 - Normally we use interfaces to hard typing on Objects
 - A interface work like a contract
 - We use Interface with data we want share it. Public props or Methods
+
+# Abstract classes
+
+- Is a way to restrict object creation from father classes
+- If we have a Animal Class that extend Dog, Beer, Eagle animals classes...so, we can't create a instance by Animal class. Only we can create a instance from Dog, beer o eagle class.
