@@ -21,8 +21,9 @@ It Describe the behavior of the class
 Access types apply in Attributes and Methods
 
 - Public access: Default access -> **public year: number = 0;**
-- Just reade inside and outside Class: **readonly year: number = 0;**
+- Readonly: Just reade inside and outside Class: **readonly year: number = 0;**
 - Private access: From outside Class we can't Print nether Mutated it -> **private day: number = 0;**
+- Protected access: Is a Private access that we can inherit.
 
 # Constructor
 
@@ -40,9 +41,9 @@ The Constructor is the method that allows us to build the instances and where we
 - A **setter** is the opposite of a **getter**
 - The exclusive use of a setter is to modify a value and your rules
 
-# Inherit
+# Inheritance
 
 # Protected by Inheritance
 
 - Is a way to inherit methods and props
--
+- Protected is a Private with inheritance. It's means Protected allow us use props or methods only on internal uses and we can inherit it.
