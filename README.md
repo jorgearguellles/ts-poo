@@ -55,3 +55,7 @@ The Constructor is the method that allows us to build the instances and where we
   - console.log(Math.max(1,2,3,4)); // 4
 
 # Interface
+
+- Normally we use interfaces to hard typing on Objects
+- A interface work like a contract
+- We use Interface with data we want share it. Public props or Methods
