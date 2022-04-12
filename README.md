@@ -64,3 +64,9 @@ The Constructor is the method that allows us to build the instances and where we
 
 - Is a way to restrict object creation from father classes
 - If we have a Animal Class that extend Dog, Beer, Eagle animals classes...so, we can't create a instance by Animal class. Only we can create a instance from Dog, beer o eagle class.
+
+# Singleton Pattern: Private constructor
+
+- It ensures that we create only one instance of a class:
+  - To avoid memory locks
+  - Guarantee a single access point to that class.
