@@ -70,3 +70,5 @@ The Constructor is the method that allows us to build the instances and where we
 - It ensures that we create only one instance of a class:
   - To avoid memory locks
   - Guarantee a single access point to that class.
+
+# Promises
